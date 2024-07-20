@@ -104,7 +104,78 @@ a {
     display: flex;
     gap: 20px;
 }
-.Tittle {
-    height: 600px;
-    background-image: url(/images/Group\ 13.png)
+
+
+.main-section {
+
+    padding:0 135px 0 135px;
+    background-image: url(/images/Group\ 13.png);
+
+    .tokens{
+        /* height: 600px; */
+
+    
+        .main{
+            padding-top: 180px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+        }
+    
+        .title{
+            font-size: 150px;
+            font-weight: 600;
+            color: #A000304D;
+    
+            justify-content: center;
+        }
+    
+        .footer{
+            display: flex;
+    
+            .progress{
+                margin-top: 150px;
+                border: white solid 2px;
+                width: 660px;
+                height: 71px;
+                display: flex;
+
+                .passed{
+                    background: #DC052D;
+                    color:white;
+                    height: 100%;
+                    width: 100%;
+            
+                    
+
+                    width: 547px;
+                    display: flex;
+                
+
+                    .text{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        align-items: center; 
+                        justify-content: center;
+                        font-size: 35px;
+                        font-weight: 600;
+
+                    }
+                    
+                }
+
+                .not-passed{
+                    background: #31000F;
+                    height: 100%;
+                    width: 115px
+                    /* width: 100%; */
+
+                }
+
+            }
+        }
+    }
+
+
 }
